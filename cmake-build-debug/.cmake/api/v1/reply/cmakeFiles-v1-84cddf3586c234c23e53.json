@@ -130,8 +130,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/gilem/CLionProjects/arbol3/cmake-build-debug",
-		"source" : "/home/gilem/CLionProjects/arbol3"
+		"build" : "/home/gilem/CLionProjects/trywithtapia/cmake-build-debug",
+		"source" : "/home/gilem/CLionProjects/trywithtapia"
 	},
 	"version" : 
 	{

@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/gilem/CLionProjects/arbol3/cmake-build-debug"
+			"value" : "/home/gilem/CLionProjects/trywithtapia/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -543,7 +543,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/gilem/CLionProjects/arbol3/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/gilem/CLionProjects/trywithtapia/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -603,7 +603,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/gilem/CLionProjects/arbol3"
+			"value" : "/home/gilem/CLionProjects/trywithtapia"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1163,7 +1163,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/gilem/CLionProjects/arbol3/cmake-build-debug"
+			"value" : "/home/gilem/CLionProjects/trywithtapia/cmake-build-debug"
 		},
 		{
 			"name" : "arbol3_IS_TOP_LEVEL",
@@ -1187,7 +1187,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/gilem/CLionProjects/arbol3"
+			"value" : "/home/gilem/CLionProjects/trywithtapia"
 		}
 	],
 	"kind" : "cache",

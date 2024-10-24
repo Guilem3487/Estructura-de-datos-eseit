@@ -1,3 +1,5 @@
+
+/*
 #include <iostream>
 #include <string>
 
@@ -13,10 +15,10 @@ struct Nodo {
 Nodo *crearNodo(string);
 void insertarNodo(Nodo *&, string);
 void menu();
-void preOrden(Nodo*);
+void preOrden(Nodo*); //1
 void mostrarArbol(Nodo *, int);
-void inOrden(Nodo*);
-void posOrden(Nodo*);
+void inOrden(Nodo*); //2
+void posOrden(Nodo*); //3
 void eliminarNodo(Nodo *&arbol, string n);
 void eliminarNodoEncontrado(Nodo *&nodo);
 Nodo *encontrarMinimo(Nodo *nodo);
@@ -239,3 +241,4 @@ Nodo *encontrarMinimo(Nodo *nodo) {
 
 //Hacer un codigo en el cual ingresemos apellidos, por alfabetico.
 // Y mostrar los nodos en standart.
+*/
