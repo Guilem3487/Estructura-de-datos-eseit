@@ -1,6 +1,6 @@
 
 #include <iostream>
-/*
+
 using namespace std;
 
 struct Nodo {
@@ -90,7 +90,8 @@ void imprimirSegundoNivel(Nodo *arbol) {
 }
 
 
-*/
+////SEGUNDO EJERCICIO
+
 
 
 using namespace std;
