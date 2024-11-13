@@ -53,3 +53,8 @@ void lectura(const string& filename) {
     }
     archivo.close();
 }
+
+//arboles y logica aplicada.
+// o 5 o 0.
+// puntos para a la nota final
+//ajustar variables previamente creadas para el parcial.
