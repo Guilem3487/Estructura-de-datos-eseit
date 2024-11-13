@@ -1,6 +1,6 @@
 
 #include <iostream>
-
+/*
 using namespace std;
 
 struct Nodo {
@@ -90,8 +90,7 @@ void imprimirSegundoNivel(Nodo *arbol) {
 }
 
 
-////SEGUNDO EJERCICIO
-
+*/
 
 #include <iostream>
 #include <iostream>
@@ -174,7 +173,6 @@ int contarNodos(Nodo *arbol) {
     if (arbol == NULL) {
         return 0;
     }
-<<<<<<< HEAD
     return 1 + contarNodos(arbol->izq) + contarNodos(arbol->der);
 }
 
@@ -182,10 +180,3 @@ int contarNodosExcluyendoRaizYHijos(Nodo *arbol) {
     int totalNodos = contarNodos(arbol);
     return totalNodos > 3 ? totalNodos - 3 : 0;
 }
-=======
-    if (arbol->izq == NULL && arbol->der == NULL) {
-        return 1;
-    }
-    return contarHojas(arbol->izq) + contarHojas(arbol->der);
-}
->>>>>>> df1e9772ddbda59ee1e6889a62de04a0c927e61d
