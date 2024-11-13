@@ -148,7 +148,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=arbol3
+CMAKE_PROJECT_NAME:STATIC=partialt131124
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -223,6 +223,15 @@ arbol3_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 arbol3_SOURCE_DIR:STATIC=/home/gilem/CLionProjects/trywithtapia
+
+//Value Computed by CMake
+partialt131124_BINARY_DIR:STATIC=/home/gilem/CLionProjects/trywithtapia/cmake-build-debug
+
+//Value Computed by CMake
+partialt131124_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+partialt131124_SOURCE_DIR:STATIC=/home/gilem/CLionProjects/trywithtapia
 
 
 ########################

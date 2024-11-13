@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: arbol3
+# Project: partialt131124
 # Configurations: Debug
 # =============================================================================
 
@@ -41,83 +41,47 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /home/gilem/CLionProjects/trywithtapia/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target arbol3
+# Object build statements for EXECUTABLE target partialt131124
 
 
 #############################################
-# Order-only phony target for arbol3
+# Order-only phony target for partialt131124
 
-build cmake_object_order_depends_target_arbol3: phony || .
+build cmake_object_order_depends_target_partialt131124: phony || .
 
-build CMakeFiles/arbol3.dir/main.cpp.o: CXX_COMPILER__arbol3_unscanned_Debug /home/gilem/CLionProjects/trywithtapia/main.cpp || cmake_object_order_depends_target_arbol3
-  DEP_FILE = CMakeFiles/arbol3.dir/main.cpp.o.d
+build CMakeFiles/partialt131124.dir/main.cpp.o: CXX_COMPILER__partialt131124_unscanned_Debug /home/gilem/CLionProjects/trywithtapia/main.cpp || cmake_object_order_depends_target_partialt131124
+  DEP_FILE = CMakeFiles/partialt131124.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/arbol3.dir
-  OBJECT_FILE_DIR = CMakeFiles/arbol3.dir
+  OBJECT_DIR = CMakeFiles/partialt131124.dir
+  OBJECT_FILE_DIR = CMakeFiles/partialt131124.dir
 
-build CMakeFiles/arbol3.dir/10-10-dairo.cpp.o: CXX_COMPILER__arbol3_unscanned_Debug /home/gilem/CLionProjects/trywithtapia/10-10-dairo.cpp || cmake_object_order_depends_target_arbol3
-  DEP_FILE = CMakeFiles/arbol3.dir/10-10-dairo.cpp.o.d
+build CMakeFiles/partialt131124.dir/partialtdairo.cpp.o: CXX_COMPILER__partialt131124_unscanned_Debug /home/gilem/CLionProjects/trywithtapia/partialtdairo.cpp || cmake_object_order_depends_target_partialt131124
+  DEP_FILE = CMakeFiles/partialt131124.dir/partialtdairo.cpp.o.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/arbol3.dir
-  OBJECT_FILE_DIR = CMakeFiles/arbol3.dir
+  OBJECT_DIR = CMakeFiles/partialt131124.dir
+  OBJECT_FILE_DIR = CMakeFiles/partialt131124.dir
 
-build CMakeFiles/arbol3.dir/hm.cpp.o: CXX_COMPILER__arbol3_unscanned_Debug /home/gilem/CLionProjects/trywithtapia/hm.cpp || cmake_object_order_depends_target_arbol3
-  DEP_FILE = CMakeFiles/arbol3.dir/hm.cpp.o.d
+build CMakeFiles/partialt131124.dir/posOrden.cpp.o: CXX_COMPILER__partialt131124_unscanned_Debug /home/gilem/CLionProjects/trywithtapia/posOrden.cpp || cmake_object_order_depends_target_partialt131124
+  DEP_FILE = CMakeFiles/partialt131124.dir/posOrden.cpp.o.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/arbol3.dir
-  OBJECT_FILE_DIR = CMakeFiles/arbol3.dir
-
-build CMakeFiles/arbol3.dir/preOrdent.cpp.o: CXX_COMPILER__arbol3_unscanned_Debug /home/gilem/CLionProjects/trywithtapia/preOrdent.cpp || cmake_object_order_depends_target_arbol3
-  DEP_FILE = CMakeFiles/arbol3.dir/preOrdent.cpp.o.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/arbol3.dir
-  OBJECT_FILE_DIR = CMakeFiles/arbol3.dir
-
-build CMakeFiles/arbol3.dir/inOrdent.cpp.o: CXX_COMPILER__arbol3_unscanned_Debug /home/gilem/CLionProjects/trywithtapia/inOrdent.cpp || cmake_object_order_depends_target_arbol3
-  DEP_FILE = CMakeFiles/arbol3.dir/inOrdent.cpp.o.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/arbol3.dir
-  OBJECT_FILE_DIR = CMakeFiles/arbol3.dir
-
-build CMakeFiles/arbol3.dir/posOrden.cpp.o: CXX_COMPILER__arbol3_unscanned_Debug /home/gilem/CLionProjects/trywithtapia/posOrden.cpp || cmake_object_order_depends_target_arbol3
-  DEP_FILE = CMakeFiles/arbol3.dir/posOrden.cpp.o.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/arbol3.dir
-  OBJECT_FILE_DIR = CMakeFiles/arbol3.dir
-
-build CMakeFiles/arbol3.dir/jueves241024.cpp.o: CXX_COMPILER__arbol3_unscanned_Debug /home/gilem/CLionProjects/trywithtapia/jueves241024.cpp || cmake_object_order_depends_target_arbol3
-  DEP_FILE = CMakeFiles/arbol3.dir/jueves241024.cpp.o.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/arbol3.dir
-  OBJECT_FILE_DIR = CMakeFiles/arbol3.dir
-
-build CMakeFiles/arbol3.dir/functionread.cpp.o: CXX_COMPILER__arbol3_unscanned_Debug /home/gilem/CLionProjects/trywithtapia/functionread.cpp || cmake_object_order_depends_target_arbol3
-  DEP_FILE = CMakeFiles/arbol3.dir/functionread.cpp.o.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/arbol3.dir
-  OBJECT_FILE_DIR = CMakeFiles/arbol3.dir
-
-build CMakeFiles/arbol3.dir/activity241024.cpp.o: CXX_COMPILER__arbol3_unscanned_Debug /home/gilem/CLionProjects/trywithtapia/activity241024.cpp || cmake_object_order_depends_target_arbol3
-  DEP_FILE = CMakeFiles/arbol3.dir/activity241024.cpp.o.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/arbol3.dir
-  OBJECT_FILE_DIR = CMakeFiles/arbol3.dir
+  OBJECT_DIR = CMakeFiles/partialt131124.dir
+  OBJECT_FILE_DIR = CMakeFiles/partialt131124.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target arbol3
+# Link build statements for EXECUTABLE target partialt131124
 
 
 #############################################
-# Link the executable arbol3
+# Link the executable partialt131124
 
-build arbol3: CXX_EXECUTABLE_LINKER__arbol3_Debug CMakeFiles/arbol3.dir/main.cpp.o CMakeFiles/arbol3.dir/10-10-dairo.cpp.o CMakeFiles/arbol3.dir/hm.cpp.o CMakeFiles/arbol3.dir/preOrdent.cpp.o CMakeFiles/arbol3.dir/inOrdent.cpp.o CMakeFiles/arbol3.dir/posOrden.cpp.o CMakeFiles/arbol3.dir/jueves241024.cpp.o CMakeFiles/arbol3.dir/functionread.cpp.o CMakeFiles/arbol3.dir/activity241024.cpp.o
+build partialt131124: CXX_EXECUTABLE_LINKER__partialt131124_Debug CMakeFiles/partialt131124.dir/main.cpp.o CMakeFiles/partialt131124.dir/partialtdairo.cpp.o CMakeFiles/partialt131124.dir/posOrden.cpp.o
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/arbol3.dir
+  OBJECT_DIR = CMakeFiles/partialt131124.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = arbol3
-  TARGET_PDB = arbol3.dbg
+  TARGET_FILE = partialt131124
+  TARGET_PDB = partialt131124.dbg
 
 
 #############################################
@@ -153,7 +117,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/gilem/CLionProjects/trywithtapia/cmake-build-debug
 
-build all: phony arbol3
+build all: phony partialt131124
 
 # =============================================================================
 # Built-in targets

@@ -92,6 +92,8 @@ void imprimirSegundoNivel(Nodo *arbol) {
 
 */
 
+#include <iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -104,7 +106,7 @@ struct Nodo {
 //protos
 Nodo *crearNodo(int);
 void insertarNodo(Nodo *&, int);
-int contarHojas(Nodo*);
+int contarNodosExcluyendoRaizYHijos(Nodo*);
 void menu();
 
 int main() {
@@ -119,7 +121,7 @@ void menu() {
     do {
         std::cout << "\t.:MENU:." << endl;
         std::cout << "1. Insertar nuevo numero" << endl;
-        std::cout << "2. Contar nodos hoja" << endl;
+        std::cout << "2. Contar nodos excluyendo raiz y sus hijos" << endl;
         std::cout << "3. Salir" << endl;
         std::cout << "Opcion: ";
         std::cin >> opcion;
@@ -131,7 +133,7 @@ void menu() {
                 insertarNodo(arbol, data);
                 break;
             case 2:
-                std::cout << "\nNumero de nodos hoja: " << contarHojas(arbol) << "\n\n";
+                std::cout << "\nNumero de nodos excluyendo raiz y sus hijos: " << contarNodosExcluyendoRaizYHijos(arbol) << endl;
                 std::cout << "Presione Enter para continuar...";
                 std::cin.ignore();
                 std::cin.get();
@@ -167,12 +169,14 @@ void insertarNodo(Nodo *&arbol, int n) {
     }
 }
 
-int contarHojas(Nodo *arbol) {
+int contarNodos(Nodo *arbol) {
     if (arbol == NULL) {
         return 0;
     }
-    if (arbol->izq == NULL && arbol->der == NULL) {
-        return 1;
-    }
-    return contarHojas(arbol->izq) + contarHojas(arbol->der);
+    return 1 + contarNodos(arbol->izq) + contarNodos(arbol->der);
+}
+
+int contarNodosExcluyendoRaizYHijos(Nodo *arbol) {
+    int totalNodos = contarNodos(arbol);
+    return totalNodos > 3 ? totalNodos - 3 : 0;
 }

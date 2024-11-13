@@ -843,7 +843,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "arbol3"
+			"value" : "partialt131124"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1179,6 +1179,42 @@
 		},
 		{
 			"name" : "arbol3_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/gilem/CLionProjects/trywithtapia"
+		},
+		{
+			"name" : "partialt131124_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/gilem/CLionProjects/trywithtapia/cmake-build-debug"
+		},
+		{
+			"name" : "partialt131124_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "partialt131124_SOURCE_DIR",
 			"properties" : 
 			[
 				{
