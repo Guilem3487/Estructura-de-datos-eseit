@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-/*
+
 int main() {
 	int num, *dir_num;
 
@@ -36,8 +36,7 @@ int main() {
 #include <iostream>
 
 using namespace std;
-*/
-/*
+
 //Cuarto paso, array con puntero
 
 int main() {
