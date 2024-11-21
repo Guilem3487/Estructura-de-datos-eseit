@@ -64,5 +64,5 @@ public class Main {
 }
 /*
 "colas de prioridad: condiciones para que un dato, "priority que
-
+tarea
  */
