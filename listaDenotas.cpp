@@ -3,7 +3,7 @@
 #include <iostream>
 
 using namespace std;
-
+/*
 int main() {
     int nums[100]; // Increased size to handle more numbers
     int *dir_num;
@@ -63,3 +63,4 @@ int main() {
 
     return 0;
 }
+*/
