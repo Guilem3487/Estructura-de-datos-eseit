@@ -1,5 +1,5 @@
 
-/*
+
 #include <iostream>
 #include <string>
 
@@ -241,4 +241,3 @@ Nodo *encontrarMinimo(Nodo *nodo) {
 
 //Hacer un codigo en el cual ingresemos apellidos, por alfabetico.
 // Y mostrar los nodos en standart.
-*/

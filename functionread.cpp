@@ -2,7 +2,7 @@
 // Created by gilem on 10/24/24.
 //
 
-/*
+
 #include <iostream>
 #include <stdlib.h>
 #include <string.h>
@@ -36,4 +36,3 @@ void lectura() {
 
     //llamar un archivo "pruba.txt"
 
-*/

@@ -1,4 +1,4 @@
-/*
+
  //
 // Created by gilem on 10/24/24.
 #include <iostream>
@@ -59,4 +59,3 @@ void lectura(const string& filename) {
 // o 5 o 0.
 // puntos para a la nota final
 //ajustar variables previamente creadas para el parcial.
-*/
