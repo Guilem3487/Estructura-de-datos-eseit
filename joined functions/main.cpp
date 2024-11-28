@@ -51,5 +51,4 @@ int main() {
                 std::cout << "opción invalida, por favor intente de nuevo" << endl;
         }
     }
-
 }

@@ -1,1 +1,1 @@
-CMakeLists.txt not found in /home/gilem/Desktop/Estructura-de-datos-eseit Select CMakeLists.txt
+CMakeLists.txt not found in /home/gilem/CLionProjects/Estructura-de-datos-eseit Select CMakeLists.txt

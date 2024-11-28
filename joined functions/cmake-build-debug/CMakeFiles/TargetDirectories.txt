@@ -1,0 +1,3 @@
+/home/gilem/CLionProjects/activity141124/cmake-build-debug/CMakeFiles/activity141124.dir
+/home/gilem/CLionProjects/activity141124/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/gilem/CLionProjects/activity141124/cmake-build-debug/CMakeFiles/rebuild_cache.dir
