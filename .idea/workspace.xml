@@ -28,7 +28,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02ff0774-d10d-4ce0-9457-8cab855e06a4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/joined functions/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/joined functions/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partial2/partialsolution.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/partial2/partialsolution.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partialsolution" beforeDir="false" afterPath="$PROJECT_DIR$/partialsolution" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,7 @@
     <setting file="file://$PROJECT_DIR$/joined functions/main.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -61,6 +62,7 @@
   "keyToString": {
     "C/C++ File.main.cpp (1).executor": "Run",
     "C/C++ File.main.cpp.executor": "Run",
+    "C/C++ File.partial2t.executor": "Run",
     "CMake Application.activity141124.executor": "Run",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -71,22 +73,28 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/gilem/Desktop/Estructura-de-datos-eseit/joined functions/main.cpp",
+    "last_opened_file_path": "/home/gilem/CLionProjects/Estructura-de-datos-eseit/partial2/partialsolution.cpp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="C/C++ File.main.cpp">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+  <component name="RunManager" selected="C/C++ File.partial2t">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="joined functions" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" RUN_PATH="$PROJECT_DIR$/joined functions/main.cpp" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="joined functions" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" RUN_PATH="$PROJECT_DIR$/joined functions/main.cpp" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration name="partial2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" RUN_PATH="$PROJECT_DIR$/partial2/partialsolution.cpp" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -97,8 +105,16 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="partial2t" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="partialt131124" TARGET_NAME="partial2t" CONFIG_NAME="partial2t">
+      <option name="sourceFile" value="$PROJECT_DIR$/partial2/partialsolution.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="C/C++ File.partial2t" />
       <item itemvalue="C/C++ File.main.cpp" />
+      <item itemvalue="CMake Application.partial2" />
       <item itemvalue="CMake Application.joined functions" />
     </list>
   </component>
@@ -112,6 +128,7 @@
       <updated>1732742487230</updated>
       <workItem from="1732742490182" duration="1512000" />
       <workItem from="1732744878867" duration="1259000" />
+      <workItem from="1732801860876" duration="709000" />
     </task>
     <servers />
   </component>

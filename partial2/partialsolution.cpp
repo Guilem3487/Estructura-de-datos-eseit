@@ -15,46 +15,23 @@ struct Nodo {
 Nodo *crearNodo(int);
 void insertarNodo(Nodo *&, int);
 void inOrden(Nodo*);
-void menu();
 
 int main() {
-    menu();
-    return 0;
-}
-
-void menu() {
-    int data;
-    int opcion;
     Nodo *arbol = NULL;
-    do {
-        std::cout << "\t.:MENU:." << endl;
-        std::cout << "1. Insertar nuevo numero" << endl;
-        std::cout << "2. Recorrer el arbol en InOrder" << endl;
-        std::cout << "3. Salir" << endl;
-        std::cout << "Opcion: ";
-        std::cin >> opcion;
+     int data;
 
-        switch (opcion) {
-            case 1:
-                std::cout << "Digite un numero: ";
-                std::cin >> data;
-                insertarNodo(arbol, data);
-                break;
-            case 2:
-                std::cout << "\nRecorrido en InOrder: ";
-                inOrden(arbol);
-                std::cout << "\n\n";
-                std::cout << "Presione Enter para continuar...";
-                std::cin.ignore();
-                std::cin.get();
-                break;
-            case 3:
-                std::cout << "Saliendo..." << endl;
-                break;
-            default:
-                std::cout << "Opcion no valida" << endl;
-        }
-    } while (opcion != 3);
+    for (int i = 0; i < 3; ++i) {
+        std::cout << "enter number: ";
+        std::cin >> data;
+        insertarNodo(arbol,data);
+    }
+
+    std::cout << "Recorrido in order: ";
+    inOrden(arbol);
+    std::cout << std::endl;
+
+    return 0;
+
 }
 
 Nodo *crearNodo(int n) {
@@ -82,9 +59,10 @@ void insertarNodo(Nodo *&arbol, int n) {
 void inOrden(Nodo *arbol) {
     if (arbol == NULL) {
         return;
-    } else {
-        inOrden(arbol->izq);
-        std::cout << arbol->dato << " - ";
-        inOrden(arbol->der);
+    }
+    else {
+        if (arbol->izq != NULL) {
+            std::cout << arbol->izq->dato;
+        }
     }
 }
